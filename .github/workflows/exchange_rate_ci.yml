@@ -50,6 +50,8 @@ jobs:
           -Dsonar.host.url=https://sonarcloud.io \
           -Dsonar.login=$SONAR_TOKEN
 
+#dodatkowe paski/instalki do sprawdzania kodu za pomoca roznych bibliotek
+
     - name: Install linting and formatting dependencies
       run: |
         pip install flake8 black
