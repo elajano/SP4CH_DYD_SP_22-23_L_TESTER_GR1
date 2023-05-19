@@ -77,3 +77,4 @@ jobs:
     - name: Run security checks
       run: |
         bandit -r 'T9/Exchange rate/app/'
+        
