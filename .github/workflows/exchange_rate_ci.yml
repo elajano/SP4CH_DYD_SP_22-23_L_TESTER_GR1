@@ -29,7 +29,7 @@ jobs:
       run: |
         cd 'T9/Exchange rate'
         export PYTHONPATH="${PYTHONPATH}:$(pwd)"
-        pytest test/ -v
+        pytest tests/ -v
 
     - name: Install SonarQube scanner
       run: |
